@@ -1,5 +1,3 @@
-# This script get updated stock price from yahoo finance
-
 import pandas as pd
 import yfinance as yf
 from datetime import date
