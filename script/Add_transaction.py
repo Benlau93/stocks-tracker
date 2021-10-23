@@ -1,5 +1,3 @@
-# This script is to add transactional stock entry into the trading dashboard
-
 import pandas as pd
 import numpy as np
 from datetime import date
