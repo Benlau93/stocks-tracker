@@ -55,7 +55,14 @@ Open a powershell in the current folder and run 'refresh_stockprice.py' script
 Automatically update the current prices for all exisitng position. Also, recalculate current value and P/L of the portfolio.
 
 ### Transaction Data Excel Sheet
-Using the python scripts, the excel will be updated with all the transaction data and calculate fields such as P/L, P/L (%) that could be useful in tracking your investment journey.
+Using the python scripts, the excel will be updated with all the transaction data and calculate fields such as P/L, P/L (%) that could be useful to track your trading performance.
+
+The excel also allow easy ingestion into visualization softwares to monitor your trading progress. One example is shown below where I use the excel generated to create a simple dashboard to monitor my profits/loss on Tableau. <br>
+
+![dashboard](https://github.com/Benlau93/stocks-tracker/blob/main/img/dashboard.PNG?raw=true "Title")
+
+<br>
+The interactive dashboard is also published on Tableau Public in the link here. (https://public.tableau.com/app/profile/benjamin.lau4995/viz/stock-tracker/Overview?publish=yes) 
 
 ##### Note
 Shorting of Share is currently not supported in this version
